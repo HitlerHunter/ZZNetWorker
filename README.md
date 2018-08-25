@@ -1,2 +1,0 @@
-# ZZNetWorker
-ZZNetWorker  with AFNetWorking
