@@ -1,5 +1,5 @@
 # ZZNetWorker
-HEAD
+
 ZZNetWorker  with AFNetWorking
 
 
