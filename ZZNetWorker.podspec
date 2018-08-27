@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 s.name             = 'ZZNetWorker'
 s.version          = '0.1.0'
-s.summary          = 'ZZNetWorker. zlz'
+s.summary          = 'ZZNetWorker zlz'
 
 s.description      = <<-DESC
 a networkTool base AFNetworking
@@ -15,7 +15,7 @@ s.source           = { :git => 'https://github.com/HitlerHunter/ZZNetWorker.git'
 
 
 s.ios.deployment_target = '8.0'
-s.source_files = 'ZZNetWorker/**/*'
+s.source_files = 'ZZNetWorker/Classes/*.{h,m}'
 s.dependency 'AFNetworking', '~> 3.2.1'
 
 end
