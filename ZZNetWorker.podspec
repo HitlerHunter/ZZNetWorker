@@ -15,7 +15,7 @@ s.source           = { :git => 'https://github.com/HitlerHunter/ZZNetWorker.git'
 
 
 s.ios.deployment_target = '8.0'
-s.source_files = 'ZZNetWorker/Classes/*.{h,m}'
+s.source_files = 'ZZNetWorker/Classes/**/*'
 s.dependency 'AFNetworking', '~> 3.2.1'
 
 end
