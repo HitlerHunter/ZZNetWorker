@@ -1,7 +1,7 @@
 # ZZNetWorker
-<<<<<<< HEAD
+HEAD
 ZZNetWorker  with AFNetWorking
-=======
+
 
 [![CI Status](https://img.shields.io/travis/HitlerHunter/ZZNetWorker.svg?style=flat)](https://travis-ci.org/HitlerHunter/ZZNetWorker)
 [![Version](https://img.shields.io/cocoapods/v/ZZNetWorker.svg?style=flat)](https://cocoapods.org/pods/ZZNetWorker)
@@ -30,4 +30,4 @@ HitlerHunter, 15581580575@163.com
 ## License
 
 ZZNetWorker is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit
+Initial commit
