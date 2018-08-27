@@ -19,8 +19,9 @@
             //NSData -> NSString
         if(!responseDict){
           NSString *str = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-            NSString *log = [NSString stringWithFormat:@"获取到的数据是字符串:\n %@",str];
-            NSAssert(!str, log);
+            NSString *logStr = [NSString stringWithFormat:@"获取到的数据是字符串:\n %@",str];
+            NSLog(@"%@",logStr);
+            NSAssert(!str, logStr);
         }
     }
     
