@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CF91C22DB916EF1FF7BCC8 /* libPods-ZZNetWorkerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE827D2D25C12692249D7F8 /* libPods-ZZNetWorkerDemo.a */; };
+		784CC3B62314BDA000513A79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CC3B52314BDA000513A79 /* AppDelegate.m */; };
+		784CC3B92314BDA000513A79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CC3B82314BDA000513A79 /* ViewController.m */; };
+		784CC3BC2314BDA000513A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784CC3BA2314BDA000513A79 /* Main.storyboard */; };
+		784CC3BE2314BDA500513A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784CC3BD2314BDA500513A79 /* Assets.xcassets */; };
+		784CC3C12314BDA500513A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784CC3BF2314BDA500513A79 /* LaunchScreen.storyboard */; };
+		784CC3C42314BDA500513A79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CC3C32314BDA500513A79 /* main.m */; };
+		784CC3D02314C12F00513A79 /* ZZNetWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CC3CC2314C12F00513A79 /* ZZNetWorker.m */; };
+		784CC3D22314C12F00513A79 /* ZZNetWorkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CC3CE2314C12F00513A79 /* ZZNetWorkHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5605569F1227DA6AFF260723 /* Pods-ZZNetWorkerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZNetWorkerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZNetWorkerDemo/Pods-ZZNetWorkerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		62FD5FD7B14AF2F10300A4A2 /* Pods-ZZNetWorkerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZNetWorkerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZNetWorkerDemo/Pods-ZZNetWorkerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		784CC3B12314BDA000513A79 /* ZZNetWorkerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZNetWorkerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CC3B42314BDA000513A79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		784CC3B52314BDA000513A79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		784CC3B72314BDA000513A79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		784CC3B82314BDA000513A79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		784CC3BB2314BDA000513A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		784CC3BD2314BDA500513A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		784CC3C02314BDA500513A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		784CC3C22314BDA500513A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784CC3C32314BDA500513A79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		784CC3CB2314C12F00513A79 /* ZZNetWorkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNetWorkHandler.h; sourceTree = "<group>"; };
+		784CC3CC2314C12F00513A79 /* ZZNetWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNetWorker.m; sourceTree = "<group>"; };
+		784CC3CE2314C12F00513A79 /* ZZNetWorkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNetWorkHandler.m; sourceTree = "<group>"; };
+		784CC3CF2314C12F00513A79 /* ZZNetWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNetWorker.h; sourceTree = "<group>"; };
+		EDE827D2D25C12692249D7F8 /* libPods-ZZNetWorkerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZNetWorkerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784CC3AE2314BDA000513A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CF91C22DB916EF1FF7BCC8 /* libPods-ZZNetWorkerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E87E050190059CA1A0DE14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE827D2D25C12692249D7F8 /* libPods-ZZNetWorkerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4857C76267CF60364422B6BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62FD5FD7B14AF2F10300A4A2 /* Pods-ZZNetWorkerDemo.debug.xcconfig */,
+				5605569F1227DA6AFF260723 /* Pods-ZZNetWorkerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		784CC3A82314BDA000513A79 = {
+			isa = PBXGroup;
+			children = (
+				784CC3B32314BDA000513A79 /* ZZNetWorkerDemo */,
+				784CC3B22314BDA000513A79 /* Products */,
+				4857C76267CF60364422B6BF /* Pods */,
+				18E87E050190059CA1A0DE14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		784CC3B22314BDA000513A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784CC3B12314BDA000513A79 /* ZZNetWorkerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784CC3B32314BDA000513A79 /* ZZNetWorkerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				784CC3CA2314C12F00513A79 /* Classes */,
+				784CC3B42314BDA000513A79 /* AppDelegate.h */,
+				784CC3B52314BDA000513A79 /* AppDelegate.m */,
+				784CC3B72314BDA000513A79 /* ViewController.h */,
+				784CC3B82314BDA000513A79 /* ViewController.m */,
+				784CC3BA2314BDA000513A79 /* Main.storyboard */,
+				784CC3BD2314BDA500513A79 /* Assets.xcassets */,
+				784CC3BF2314BDA500513A79 /* LaunchScreen.storyboard */,
+				784CC3C22314BDA500513A79 /* Info.plist */,
+				784CC3C32314BDA500513A79 /* main.m */,
+			);
+			path = ZZNetWorkerDemo;
+			sourceTree = "<group>";
+		};
+		784CC3CA2314C12F00513A79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				784CC3CF2314C12F00513A79 /* ZZNetWorker.h */,
+				784CC3CC2314C12F00513A79 /* ZZNetWorker.m */,
+				784CC3CB2314C12F00513A79 /* ZZNetWorkHandler.h */,
+				784CC3CE2314C12F00513A79 /* ZZNetWorkHandler.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784CC3B02314BDA000513A79 /* ZZNetWorkerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784CC3C72314BDA500513A79 /* Build configuration list for PBXNativeTarget "ZZNetWorkerDemo" */;
+			buildPhases = (
+				DC03168E9F46712AF7B43ED4 /* [CP] Check Pods Manifest.lock */,
+				784CC3AD2314BDA000513A79 /* Sources */,
+				784CC3AE2314BDA000513A79 /* Frameworks */,
+				784CC3AF2314BDA000513A79 /* Resources */,
+				4C3B0B3E0846A5AE8F63EC21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZNetWorkerDemo;
+			productName = ZZNetWorkerDemo;
+			productReference = 784CC3B12314BDA000513A79 /* ZZNetWorkerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784CC3A92314BDA000513A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zenglizhi;
+				TargetAttributes = {
+					784CC3B02314BDA000513A79 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 784CC3AC2314BDA000513A79 /* Build configuration list for PBXProject "ZZNetWorkerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784CC3A82314BDA000513A79;
+			productRefGroup = 784CC3B22314BDA000513A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784CC3B02314BDA000513A79 /* ZZNetWorkerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		784CC3AF2314BDA000513A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CC3C12314BDA500513A79 /* LaunchScreen.storyboard in Resources */,
+				784CC3BE2314BDA500513A79 /* Assets.xcassets in Resources */,
+				784CC3BC2314BDA000513A79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C3B0B3E0846A5AE8F63EC21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZZNetWorkerDemo/Pods-ZZNetWorkerDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZNetWorkerDemo/Pods-ZZNetWorkerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC03168E9F46712AF7B43ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZNetWorkerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784CC3AD2314BDA000513A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CC3B92314BDA000513A79 /* ViewController.m in Sources */,
+				784CC3D02314C12F00513A79 /* ZZNetWorker.m in Sources */,
+				784CC3D22314C12F00513A79 /* ZZNetWorkHandler.m in Sources */,
+				784CC3C42314BDA500513A79 /* main.m in Sources */,
+				784CC3B62314BDA000513A79 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		784CC3BA2314BDA000513A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784CC3BB2314BDA000513A79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		784CC3BF2314BDA500513A79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784CC3C02314BDA500513A79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		784CC3C52314BDA500513A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		784CC3C62314BDA500513A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784CC3C82314BDA500513A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FD5FD7B14AF2F10300A4A2 /* Pods-ZZNetWorkerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSV68TC8WQ;
+				INFOPLIST_FILE = ZZNetWorkerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlz.ZZNetWorkerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		784CC3C92314BDA500513A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5605569F1227DA6AFF260723 /* Pods-ZZNetWorkerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSV68TC8WQ;
+				INFOPLIST_FILE = ZZNetWorkerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlz.ZZNetWorkerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		784CC3AC2314BDA000513A79 /* Build configuration list for PBXProject "ZZNetWorkerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784CC3C52314BDA500513A79 /* Debug */,
+				784CC3C62314BDA500513A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784CC3C72314BDA500513A79 /* Build configuration list for PBXNativeTarget "ZZNetWorkerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784CC3C82314BDA500513A79 /* Debug */,
+				784CC3C92314BDA500513A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784CC3A92314BDA000513A79 /* Project object */;
+}
